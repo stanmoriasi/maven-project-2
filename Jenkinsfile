@@ -14,7 +14,7 @@ pipeline {
       }
       post {
         success {
-          echo ' now Archiving the application'
+          echo ' now Archiving the application
           archiveArtifacts artifacts: '**/*.war'
         }
       }
