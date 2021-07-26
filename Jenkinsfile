@@ -4,7 +4,7 @@ pipeline {
     WORKSPACE = "${env.WORKSPACE}"
   }
   tools {
-    maven 'localMaven'
+    maven 'localMavens'
     jdk 'localJdk'
   }
   stages {
